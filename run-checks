@@ -5,4 +5,4 @@ mkdir -p bin
 git clone https://github.com/snapcore/snapd target
 
 cd target || exit 1
-../bin/spread -v linode:
+../bin/spread -v google:
