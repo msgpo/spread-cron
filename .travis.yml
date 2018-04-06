@@ -1,4 +1,3 @@
-sudo: required
 env:
     global:
         # SPREAD_GOOGLE_KEY
