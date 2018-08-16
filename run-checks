@@ -6,4 +6,5 @@ git clone https://github.com/snapcore/snapd target
 
 export SPREAD_CORE_CHANNEL=edge
 
+env
 cd target && ../bin/spread -v google:ubuntu-16.04-32
