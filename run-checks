@@ -11,4 +11,5 @@ export UBUNTU_CORE_CHANNEL=candidate
 export SPREAD_TARGET_SNAPD_VERSION
 
 cd target/tests || exit
+env
 ../../bin/spread -v google:ubuntu-18.04-64 google:ubuntu-16.04-64 google:ubuntu-16.04-32 google:ubuntu-14.04-64
